@@ -8,7 +8,9 @@ module Jekyll
       'destination'   => File.join(Dir.pwd, '_site'),
       'plugins'       => '_plugins',
       'layouts'       => '_layouts',
-      'keep_files'   => ['.git','.svn'],
+      'keep_files'    => ['.git','.svn'],
+
+      'timezone'      => nil             # use the local timezone
 
       'future'        => true,           # remove and make true just default
       'pygments'      => true,           # remove and make true just default
